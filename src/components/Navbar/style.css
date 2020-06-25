@@ -1,0 +1,52 @@
+.navbarMenu li a{
+    text-decoration:none;
+    display: block;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: #000 ;
+
+}
+.navbarMenu li{
+    display: inline-block;
+    list-style: none;
+    margin: 3px;
+    padding: 0;
+}
+
+.navbarMenu li a{
+    color: purple;
+}
+ .navbarMenu li a:hover{
+     color: mediumorchid;
+ }
+
+ .navbarMenu{
+     margin: 0;
+     padding: 0;
+ }
+
+ .navbar{
+     padding: 10 px 10px;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .search form{
+     padding: 10px 10px;
+     display:flex;
+     margin: 0 10px;
+ }
+ .searchInput{
+     border:0;
+     width: 0;
+     transition:width 0.1s ease-in;
+
+ }
+
+ .searchInput.active{
+     width:150px;
+ }
+ .searchInput:focus{
+     outline: none;
+ }

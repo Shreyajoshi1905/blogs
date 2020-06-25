@@ -1,0 +1,22 @@
+
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    background-color: wheat;
+}
+
+
+.headerMenu a{
+    display: inline-block;
+    margin: 0 10px;
+    color: rgb(181, 71, 255);
+    text-decoration: none;
+    font-size:12px;
+    letter-spacing: 1.2px;
+}
+
+.headerMenu a:hover{
+    color: violet;
+}
+
